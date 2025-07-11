@@ -1,0 +1,193 @@
+body , nav{
+  background-color: #183c55;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Open Sans", sans-serif;
+}
+.navbar{
+  background-image:linear-gradient(180deg,#112a3e,green) ;
+  border-radius: 5px;
+}
+.nav-item a{
+  color: white;
+}
+.btn a{
+  color: white;
+}
+.navbar-brand {
+  margin-left:16px;
+  font-weight: 1000;
+  color: #dad8e5;
+}
+.brand-contain{
+  height:fit-content;
+  width: fit-content;
+  border-radius: 60px;
+  padding:3px 5px;
+  background: linear-gradient(36deg,#357e89,#478338);
+}
+.box {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 90%;
+  height: 650px;
+  background: #ffffff;
+  border-radius: 15px;
+  overflow: hidden;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  box-shadow: 0 0 20px 6px #090b6f85;
+}
+
+.box div {
+  height: auto;
+}
+.box .left {
+  color: #ffffff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://i.pinimg.com/736x/5d/73/ea/5d73eaabb25e3805de1f8cdea7df4a42--tumblr-backgrounds-iphone-phone-wallpapers-iphone-wallaper-tumblr.jpg");
+  overflow: hidden;
+}
+.box .left .overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+  background: #5961f9ad;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.box .left .overlay h1 {
+  font-size: 80px;
+  line-height: 1.2;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+#subTitle {
+  margin: 5px 0;
+  font-size: 22px;
+}
+#description {
+  font-size: 16px;
+  margin: 40px 0;
+}
+.box .left .overlay p {
+  display: flex;
+  justify-content: center;
+}
+.box .left .overlay span a {
+  background: #3b5998;
+  color: #ffffff;
+  margin-top: 10px;
+  padding: 14px 40px;
+  border-radius: 100px;
+  display: inline-block;
+  box-shadow: 0 3px 6px 1px #042d4657;
+}
+.box .left .overlay span a:last-child {
+  background: #1dcaff;
+  margin-left: 30px;
+  padding: 14px 40px;
+}
+.box .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  padding: 40px;
+  overflow: hidden;
+}
+
+.box .right h5 {
+  font-size: 50px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  line-height: 1.1;
+}
+.box .right p {
+  font-size: 14px;
+  color: #b0b3b9;
+}
+.box .right .inputs {
+  overflow: hidden;
+}
+.box .right .input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 25px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #b0b3b9;
+}
+
+.box .right .forget-password {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box .right .forget-password input {
+  margin-right: 7px;
+  width: auto;
+  height: auto;
+}
+
+.box .right button {
+  float: right;
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 35px;
+  border-radius: 50px;
+  display: flex;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  box-shadow: 0px 4px 20px 0px #49c628a6;
+  background-image: linear-gradient(135deg, #70f570 10%, #49c628 100%);
+}
+
+a {
+  text-decoration: none;
+  color: #c7cbd6;
+}
+
+a:hover {
+  color: #c2c1cb !important;
+}
+.dropdown-menu {
+  background:linear-gradient(45deg,#357e89,#418256) ;
+}
+.error {
+  display: flex;
+  color: white !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+body::-webkit-scrollbar {
+  width: 6px;
+  height: 2px;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+body::-webkit-scrollbar-thumb {
+  background: rgb(21, 2, 59);
+  border-radius: 50px;
+}
+body::-webkit-scrollbar:horizontal{
+  height: 8px;
+}

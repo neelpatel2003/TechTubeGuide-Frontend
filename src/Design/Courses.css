@@ -1,0 +1,55 @@
+.course-card {
+  position: relative;
+  background-color: #d0b9b9;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 430px;
+  height: 420px;
+  padding: 20px;
+  margin: 10px auto;
+}
+.description{
+  position: absolute;
+  pointer-events: none;
+  z-index: 2;
+}
+.ri-heart-add-fill {
+  height: 10px;
+  width: 15px;
+}
+.visible{
+  z-index: 9;
+}
+.course-card iframe {
+  border-radius: 16px;
+  width: 380px;
+  margin: 10px 5px;
+  height: 200px;
+}
+.course-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.course-description {
+  margin: 20px 0px;
+  font-size: 14px;
+  font-weight: 550;
+  color: #022524d0;
+}
+.course-button {
+  width: fit-content;
+  background-color: #b31621;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 2px;
+  text-decoration: none;
+}
+
+.course-button:hover {
+  color: antiquewhite;
+  cursor:pointer;
+}
