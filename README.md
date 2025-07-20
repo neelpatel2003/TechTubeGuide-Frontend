@@ -125,6 +125,16 @@ https://github.com/PDhvanik/TechTubeGuide/assets/113344894/b0101275-cde9-43df-9b
    mvn spring-boot:run
    ```
 
+### Environment Configuration
+
+To switch between local and production backend APIs, use a `.env` file in the `TechTubeGuide-Frontend` directory:
+
+```
+REACT_APP_API_BASE_URL=http://localhost:8080
+```
+
+For production, set this to your deployed backend URL.
+
 ### Usage
 
 - Access the frontend application at `http://localhost:3000`.
