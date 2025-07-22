@@ -1,6 +1,7 @@
 import React from 'react';
 import '../Design/Courses.css';
 import DescriptionOpen from './DescriptionOpen';
+import PropTypes from 'prop-types';
 function CourseCard(props) {
    return (
       <div className="container d-flex justify-content-center align-item-center">
@@ -14,5 +15,18 @@ function CourseCard(props) {
       </div>
    )
 }
+
+CourseCard.propTypes = {
+  title: PropTypes.string.isRequired,
+  language: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.arrayOf(PropTypes.string)
+  ]),
+  description: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.arrayOf(PropTypes.string)
+  ]),
+  videourl: PropTypes.string
+};
 
 export default CourseCard

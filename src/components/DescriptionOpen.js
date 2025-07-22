@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Design/DescriptionOpen.css'
+import PropTypes from 'prop-types';
 function DescriptionOpen(props) {
    return (
       <div className="card">
@@ -9,5 +10,12 @@ function DescriptionOpen(props) {
       </div>
    )
 }
+
+DescriptionOpen.propTypes = {
+  description: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.arrayOf(PropTypes.string)
+  ])
+};
 
 export default DescriptionOpen
