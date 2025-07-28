@@ -1,13 +1,10 @@
-<<<<<<< HEAD
+
 import React from 'react'
-import PropTypes from 'prop-types';
-=======
+
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
-import React from 'react';
->>>>>>> 660c68b8aab46ece50d8d76925b5b18b8e3e7679
 
 export default function NavBar() {
   return (
