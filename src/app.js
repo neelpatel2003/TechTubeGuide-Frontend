@@ -224,13 +224,13 @@ function App() {
                 backgroundBlendMode: 'overlay',
                 backgroundSize: 'cover',
                 minHeight: '100vh',
-                px: { xs: 1, md: 4 },
-                py: { xs: 2, md: 6 },
+                px:0,
+                py:0,
                 display: 'flex',
                 flexDirection: 'column',
             }}>
                 <NavBar />
-                <Box maxWidth="1200px" mx="auto" width="100%" mt={4}>
+                <Box mx="auto" width="98%" mt={4}>
                     <Grid container spacing={4}>
                         {/* Sidebar: Course List */}
                         <Grid gridColumn={{ xs: 'span 12', md: 'span 3' }} sx={{ minWidth: 280, maxWidth: 350, flex: '0 0 320px' }}>
